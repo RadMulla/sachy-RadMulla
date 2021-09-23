@@ -1,3 +1,29 @@
 body {
     font-family: sans-serif;
+    position: relative;
 }
+
+h1 {
+    text-align: center;
+}
+
+.Honza {
+    text-align: left;
+}
+
+.Adéla {
+    text-align: right;
+}
+
+.nova-hra {
+    text-align: center;
+}
+
+
+
+button {
+    background-color:rgb(111, 164, 207);
+    color: whitesmoke;
+    
+}
+
