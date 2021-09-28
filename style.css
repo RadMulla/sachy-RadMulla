@@ -86,19 +86,63 @@ button {
 .sachovnice {
     background-image: url(obrazky/sachovnice.png);
     background-repeat: no-repeat;
+    background-position: center center;
     aspect-ratio: 1 / 1;
     width: 100%;
-
+    
     border: 8px solid #442611;
     border-radius: 2%;
-    
+    margin: 0;
+    padding: 0;
     display: grid;
 
 
     }
 
-.figurky img {
-    width: 12,5%;
+  
+
+
+.dama-cerna img {
+    width: 11%;
     aspect-ratio: 1 / 1;
-    
+}
+
+.pesec-cerny-1 img {
+    width: 11%;
+    aspect-ratio: 1 / 1;
+}
+
+.pesec-cerny-2 img {
+    width: 11%;
+    aspect-ratio: 1 / 1;
+}
+
+.pesec-bily img {
+    width: 11%;
+    aspect-ratio: 1 / 1;
+}
+
+.pesec-cerny-3 img {
+    width: 11%;
+    aspect-ratio: 1 / 1;
+}
+
+.kun-bily img {
+    width: 11%;
+    aspect-ratio: 1 / 1;
+}
+
+.kral-cerny img {
+    width: 11%;
+    aspect-ratio: 1 / 1;
+}
+
+.vez-cerna img {
+    width: 11%;
+    aspect-ratio: 1 / 1;
+}
+
+.kral-bily img {
+    width: 11%;
+    aspect-ratio: 1 / 1;
 }
