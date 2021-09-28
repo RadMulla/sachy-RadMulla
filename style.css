@@ -60,8 +60,6 @@ p {
     margin: 0 0 0 10px;
 }
 
-
-
 .nova-hra {
     text-align: center;
     font-size: 20px;
@@ -80,23 +78,27 @@ button {
     padding: 10px 20px;
 }
 
-.sachovnice img {
-    border: 8px solid #442611;
-    border-radius: 2%;
+.tlacitko button:hover,
+.tlacitko button:focus {
+    background-color: rgb(85, 85, 177);
+}
 
-    display: grid;
+.sachovnice {
+    background-image: url(obrazky/sachovnice.png);
+    background-repeat: no-repeat;
     aspect-ratio: 1 / 1;
     width: 100%;
-    object-fit: contain;
-    object-position: center;
 
+    border: 8px solid #442611;
+    border-radius: 2%;
     
-}
+    display: grid;
+
+
+    }
 
 .figurky img {
-    width: 40px;
-    height: 120px;
-
-
+    width: 12,5%;
+    aspect-ratio: 1 / 1;
+    
 }
-
