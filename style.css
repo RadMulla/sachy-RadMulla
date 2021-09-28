@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    position: relative;
+    
 }
 
 h1 {
@@ -8,20 +8,56 @@ h1 {
     font-size: 30px;
 }
 
-.Honza {
-    text-align: left;
+h3 {
+    margin: 20px 0 0 0;
 }
 
-.Adéla {
+p {
+    margin: 0 0 20px 0;
+}
+
+.hraci {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    height: auto;
+    
+    max-width: 100%;
+    align-items: stretch
+}
+
+.obrazek-Honza img {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    object-position: center;
+    align-items: center;
+}
+
+
+.Honza {
+    text-align: left;
+    object-position: center;
+    align-items: stretch;
+    
+    
+    
+}
+
+.Adela {
     text-align: right;
 }
 
-.obrazek-Adela {
-    object-position: absolute;
-    left: 0;
-    display: block
-    
+.obrazek-Adela img {
+    aspect-ratio: 1 / 1;
+    border-radius: 5%;
+    width: 100%;
+    object-fit: cover;
+    object-position: inherit;
 }
+
+
 
 .nova-hra {
     text-align: center;
@@ -29,7 +65,11 @@ h1 {
     
 }
 
-
+.tlacitko {
+    display: flex;
+    justify-content: center;
+}
+    
 
 button {
     background-color:rgb(112, 180, 212);
@@ -37,17 +77,24 @@ button {
     font-size: 18px;
     border-radius: 5%;
     padding: 10px 20px;
-    margin: 0 43% 0 43%;
     
+    
+
 }
 
 
 
-.sachovnice {
-    background-image: url(obrazky/sachovnice.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+.sachovnice img {
+   
+    border: 10px solid #442611;
+    border-radius: 2%;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+
+    
 }
 
 .figurky img {
