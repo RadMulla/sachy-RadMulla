@@ -1,7 +1,6 @@
 body {
     font-family: sans-serif;
     max-width: 600px;
-    
 }
 
 h1 {
@@ -86,69 +85,76 @@ button {
 .sachovnice {
     background-image: url(obrazky/sachovnice.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
-    
-    padding: 10px;
- 
-    
+    aspect-ratio: 1 / 1;
     border: 6px solid #442611;
     border-radius: 2%;
-   
-    
-    
-
-    
-
-    
-
-    }
-
-  
-
+    display: grid;
+    grid-template-columns: repeat (8, 1fr); 
+    grid-template-rows: repeat (8, 1fr);
+}
 
 .dama-cerna img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
-    
+    grid-column: 5;
+    grid-row: 1;
 }
 
 .pesec-cerny-1 img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .pesec-cerny-2 img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
+    grid-column: 3;
+    grid-row: 3;
+
 }
 
 .pesec-bily img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
+    grid-column: 4;
+    grid-row: 4;
 }
 
 .pesec-cerny-3 img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
+    grid-column: 8;
+    grid-row: 4;
 }
 
 .kun-bily img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
+    grid-column: 2;
+    grid-row: 5;
 }
 
 .kral-cerny img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
+    grid-column: 6;
+    grid-row: 6;
 }
 
 .vez-cerna img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
+    grid-column: 3;
+    grid-row: 8;
 }
 
 .kral-bily img {
-    width: 11%;
+    width: 10%;
     aspect-ratio: 1 / 1;
+    grid-column: 6;
+    grid-row: 8;
 }
