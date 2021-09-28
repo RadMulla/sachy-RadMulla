@@ -1,36 +1,50 @@
 body {
     font-family: sans-serif;
+    max-width: 600px;
     
 }
 
 h1 {
     text-align: center;
     font-size: 40px;
+    font-weight: bold;
 }
 
+h3 {
+    font-size: 19px;
+    font-weight: bold;
+}
 
+p {
+    font-size: 16px;
+}
 
 .hraci {
     display: flex;
-   
     justify-content: space-between;
-    
-    
+}
+
+.hrac-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hrac-2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
 }
 
 .obrazek-Honza img {
     aspect-ratio: 1 / 1;
     border-radius: 5%;
-    width: 100px;
+    width: 80px;
     object-fit: cover;
     object-position: center;  
     margin: 0 10px 0 0; 
 }
 
 .Honza {
-    
     text-align: left;
-    
 }
 
 .Adela {
@@ -40,7 +54,7 @@ h1 {
 .obrazek-Adela img {
     aspect-ratio: 1 / 1;
     border-radius: 5%;
-    width: 100px;
+    width: 80px;
     object-fit: cover;
     object-position: center;
     margin: 0 0 0 10px;
@@ -86,12 +100,3 @@ button {
 
 }
 
-.hrac-1 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.hrac-2 {
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
