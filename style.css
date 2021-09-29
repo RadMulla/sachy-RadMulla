@@ -90,71 +90,88 @@ button {
     aspect-ratio: 1 / 1;
     border: 6px solid #442611;
     border-radius: 2%;
-    display: grid;
-    grid-template-columns: repeat (8, 1fr); 
-    grid-template-rows: repeat (8, 1fr);
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr); 
 }
 
 .dama-cerna img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.dama-cerna {
     grid-column: 5;
     grid-row: 1;
 }
 
 .pesec-cerny-1 img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.pesec-cerny-1 {
     grid-column: 1;
     grid-row: 2;
 }
 
 .pesec-cerny-2 img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.pesec-cerny-2 {
     grid-column: 3;
     grid-row: 3;
-
 }
 
 .pesec-bily img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.pesec-bily {
     grid-column: 4;
     grid-row: 4;
 }
 
 .pesec-cerny-3 img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.pesec-cerny-3 {
     grid-column: 8;
     grid-row: 4;
 }
 
 .kun-bily img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.kun-bily {
     grid-column: 2;
     grid-row: 5;
 }
 
 .kral-cerny img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.kral-cerny {
     grid-column: 6;
     grid-row: 6;
 }
 
 .vez-cerna img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.vez-cerna {
     grid-column: 3;
     grid-row: 8;
 }
 
 .kral-bily img {
-    width: 10%;
-    aspect-ratio: 1 / 1;
+    width: 95%;
+}
+
+.kral-bily {
     grid-column: 6;
     grid-row: 8;
 }
